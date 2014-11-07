@@ -790,12 +790,7 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		/*background-color: #645862;*/
-		background-image: url("http://www.picturesforwalls.com/wallpapers/SDIM0639.jpg");
-		/*background-position: bottom left, bottom right, top left, top center;*/
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		/*background-size: 25em, 25em, auto, cover;*/
-		/*color: white;*/
+		background: url(../images/banner_background.jpg) no-repeat center center fixed;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -812,7 +807,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(52, 27, 43, 0.77);
 			color: white;
 			display: inline-block;
 			opacity: 0;
