@@ -791,6 +791,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background: url(../images/banner_background.jpg) no-repeat center center fixed;
+		background-size: cover;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
