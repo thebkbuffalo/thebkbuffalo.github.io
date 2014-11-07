@@ -808,12 +808,13 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.77);
+			background: rgba(52, 27, 43, 0.85);
 			color: white;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			border-radius: 5px;
 		}
 
 			#banner .inner header {
