@@ -564,7 +564,14 @@
 
 	.wrapper {
 		margin-bottom: 5em;
-		padding: 5em;
+		padding: 2em;
+		text-align: center;
+	}
+
+	.wrapper h1 {
+		font-size: 3em;
+		margin-bottom: -.4em;
+		margin-top: -.2em;
 	}
 
 		.wrapper.style1 {
@@ -576,8 +583,7 @@
 		}
 
 		.wrapper.style2 ul {
-			display: inline;
-			position: auto;
+			margin: 0;
 		}
 
 		.wrapper.style2 img {
@@ -585,21 +591,6 @@
 			border-radius: 100%;
 		}
 
-
-			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
-			}
-
-			.wrapper.style2 .button.special {
-				background: white;
-				border-color: white;
-				color: #83d3c9 !important;
-			}
-
-				.wrapper.style2 .button.special:hover {
-					border-color: inherit !important;
-					color: white !important;
-				}
 
 		.wrapper.style3 {
 			background: white;
