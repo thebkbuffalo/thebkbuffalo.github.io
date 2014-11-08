@@ -31,10 +31,13 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1 id="logo"><a href="index.html">Evan Berg <span>A Web Developer</span></a></h1>
+				<h1 id="logo"><a href="#header">Evan Berg <span>A Web Developer</span></a></h1>
 				<nav id="nav">
-					<ul>
-						<li class="current"><a href="index.html">To The Top</a></li>
+					<ul class="buttons vertical">
+						<li><h1 id="logo"><a href="#banner" class="button fit scrolly">To The Top</a></li>
+						<li><h1 id="logo"><a href="#main" class="button fit scrolly">About Me</a></li>
+						<li><h1 id="logo"><a href="#projects" class="button fit scrolly">Projects</a></li>
+						<li><h1 id="logo"><a href="#contact" class="button fit scrolly">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -66,7 +69,7 @@
 
 		<!-- Main -->
 			<article id="main">
-				<img id="me" src="/images/me.jpg"/ height="450px" width="450px">
+
 				<header class="special container">
 					<h2>Hello There!</h2><br/>
 					<p>
@@ -76,6 +79,7 @@
 
 				<!-- One -->
 					<section class="wrapper style2 container special-alt">
+						<!-- TODO make this scroll down when you click scroll -->
 						<h1>Skills!</h1>
 						<p>(I got em)</p>
 						<h3>
@@ -98,6 +102,7 @@
 
 
 				<!-- Three -->
+				<article id="projects">
 					<section class="wrapper style3 container special">
 
 						<header class="major">
@@ -165,50 +170,32 @@
 
 
 
-				<article id="main">
+		<!-- Contact -->
+
+		<!-- Main -->
+			<article id="contact">
 
 				<header class="special container">
 					<span class="icon fa-envelope"></span>
 					<h2>Get In Touch</h2>
-					<p>Use the form below to give /dev/null a piece of your mind.</p>
 				</header>
 
 				<!-- One -->
 					<section class="wrapper style4 special container 75%">
 
 						<!-- Content -->
-							<div class="content">
-								<form>
-									<div class="row 50%">
-										<div class="6u 12u(3)">
-											<input type="text" name="name" placeholder="Name" />
-										</div>
-										<div class="6u 12u(3)">
-											<input type="text" name="email" placeholder="Email" />
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<input type="text" name="subject" placeholder="Subject" />
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<textarea name="message" placeholder="Message" rows="7"></textarea>
-										</div>
-									</div>
-									<div class="row">
-										<div class="12u">
-											<ul class="buttons">
-												<li><input type="submit" class="special" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</div>
+							<ul>
+								<h2>
+									<li>Email: <br/><span class="c_info"><a href="mailto:evan.m.berg@gmail.com">evan.m.berg@gmail.com</a></span></li>
+									<li>Phone: <br/><span class="c_info">301.641.7425</span></li>
+									<li>Address:<br/><span class="c_info">22 Wilson Ave.<br/>Brooklyn, NY<br/>11237</span></li>
+								</h2>
+							</ul>
 
 					</section>
-				</article>
+
+			</article>
+
 
 
 		<!-- Footer -->
