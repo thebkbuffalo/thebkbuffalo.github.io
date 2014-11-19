@@ -129,9 +129,8 @@
 		#banner .inner {
 			background: none;
 			display: block;
-			padding: 0 1.5em;
+			padding: 1em;
 			background: rgba(52, 27, 43, 0.90);
-			margin: 2.0em
 		}
 
 			#banner .inner header h2 {
