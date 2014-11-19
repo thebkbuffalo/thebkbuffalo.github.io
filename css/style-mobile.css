@@ -25,7 +25,7 @@
 	}
 
 	br {
-		display: static;
+		display: block;
 	}
 
 /* Section/Article */
@@ -106,7 +106,7 @@
 	}
 
 		.wrapper.special br {
-			display: none;
+			display: block;
 		}
 
 		.wrapper.style1 {
@@ -121,6 +121,7 @@
 		.wrapper.style4 {
 			background-size: 10em;
 			padding: 1.5em 1.5em 3em 1.5em;
+			font-size: .8em;
 		}
 
 /* Banner */

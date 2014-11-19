@@ -39,7 +39,7 @@
 	}
 
 		.wrapper.special br {
-			display: none;
+			display: block;
 		}
 
 		.wrapper.style1 {
