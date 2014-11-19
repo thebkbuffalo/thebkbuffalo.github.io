@@ -21,7 +21,11 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
+	}
+
+	br {
+		display: static;
 	}
 
 /* Section/Article */
@@ -69,7 +73,7 @@
 	input[type="submit"],
 	input[type="reset"],
 	.button {
-		max-width: 20em;
+		max-width: 18em;
 		width: 100%;
 	}
 
