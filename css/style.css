@@ -596,8 +596,14 @@
 			background-color: #83d3c9;
 		}
 
-		.wrapper.style2 ul {
-			margin: 0;
+		.wrapper.style2 tr {
+			display: inline-block;
+
+		}
+
+		.skills_box {
+			margin: .5em;
+			display: inline-block;
 		}
 
 		.wrapper.style2 img {
