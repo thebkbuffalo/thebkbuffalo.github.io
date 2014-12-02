@@ -108,6 +108,11 @@
 		padding: 1em 0 1em 2em;
 	}
 
+	#skillz {
+		padding-bottom: .3em;
+		margin-bottom: .3em;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
