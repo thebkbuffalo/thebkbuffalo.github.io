@@ -125,7 +125,7 @@
 
 	header.special {
 		margin-bottom: 5em;
-		padding-top: 7em;
+		padding-top: 4em;
 		position: relative;
 		text-align: center;
 	}
@@ -583,7 +583,7 @@
 
 
 	.wrapper h1 {
-		font-size: 3em;
+		font-size: 4.5em;
 		margin-bottom: -.4em;
 		margin-top: -.2em;
 	}
@@ -593,7 +593,9 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: rgba(0,0,0,.67);
+			border-radius: 5px;
+			color: white;
 		}
 
 		.wrapper.style2 tr {
@@ -607,7 +609,7 @@
 		}
 
 		.wrapper.style2 img {
-			border: solid #3c3c3c 3px;
+			border: 1.75px solid #6D696A;
 			border-radius: 100%;
 		}
 
