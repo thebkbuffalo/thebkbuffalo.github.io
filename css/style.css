@@ -593,7 +593,8 @@
 		}
 
 		.wrapper.style2 {
-			background-color: rgba(0,0,0,.57);
+			background: #10110E;
+			opacity: .91;
 			border-radius: 5px;
 			color: white;
 		}
