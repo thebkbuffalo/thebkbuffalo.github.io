@@ -619,6 +619,7 @@
 			background: rgb(218, 224, 229);
 			color: inherit;
 			border-radius: 5px;
+			margin-bottom: 1em !important;
 		}
 
 		.wrapper.style4 {
@@ -626,6 +627,7 @@
 			color: inherit;
 			padding: 4em;
 			text-align: left;
+			margin-bottom: 0 !important;
 		}
 
 		.c_info:hover {
@@ -899,6 +901,7 @@
 		background-repeat: no-repeat;
 		background-size: 25em;
 		padding: 7em 0;
+		padding: 7em 0 0 0;
 		color: #3c3c3c
 	}
 
@@ -945,7 +948,7 @@
 	#footer {
 		background: #e8eef4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 5em 5em 3em 5em;
 		text-align: center;
 	}
 
