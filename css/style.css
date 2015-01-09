@@ -616,8 +616,9 @@
 
 
 		.wrapper.style3 {
-			background: rgb(187, 187, 187);
+			background: rgb(218, 224, 229);
 			color: inherit;
+			border-radius: 5px;
 		}
 
 		.wrapper.style4 {
