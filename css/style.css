@@ -246,6 +246,10 @@
 		color: rgba(124, 128, 129, 0.5) !important;
 	}
 
+	#gh-link:hover {
+		background: #EBEBEB;
+	}
+
 /* Image */
 
 	.image {
