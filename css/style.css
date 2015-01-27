@@ -246,8 +246,16 @@
 		color: rgba(124, 128, 129, 0.5) !important;
 	}
 
+	#gh-link {
+		line-height: 1.6em;
+	}
+
 	#gh-link:hover {
 		background: #EBEBEB;
+	}
+
+	#github {
+		font-size: .666em;
 	}
 
 /* Image */
