@@ -135,7 +135,8 @@
 			background: none;
 			display: block;
 			padding: 1em;
-			background: rgba(52, 27, 43, 0.90);
+			margin: 0 1em;
+			background: rgba(13, 9, 16, 0.82);;
 		}
 
 			#banner .inner header h2 {
@@ -184,3 +185,8 @@
 			padding: 0;
 			border: 0;
 		}
+
+	.skills_box img {
+		height: 90px;
+		width: 90px;
+	}
