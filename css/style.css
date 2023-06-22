@@ -9,11 +9,11 @@ h1, h2, h3, h4, h5, p, a {
 }
 
 #top_columns {
-	padding: 0 0 0 20px;
+	padding: 10px 0 0 25px;
 }
 
 .name {
-	font-size: 42px;
+	font-size: 45px;
 }
 
 .subtitle, .close_resume {
@@ -36,11 +36,15 @@ h1, h2, h3, h4, h5, p, a {
 	padding: 0 0 0 20px;
 }
 
+.menu_options {
+	margin-top: 10px;
+}
+
 .resume_option p {
 	font-size: 25px;
-}
+} 
 
 #about p {
 	font-size: 22px;
-	font-weight: 700;
+	font-weight: 500;
 }

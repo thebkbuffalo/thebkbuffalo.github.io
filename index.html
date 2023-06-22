@@ -26,7 +26,7 @@
             <p class="subtitle show_resume">Resume</p>
             <p class="subtitle dl_resume"><a href="BergE_Resume.pdf" download>(download)</a></p>
             <p class="subtitle open_email"><a href="mailto: evan.m.berg@gmail.com">Email</a></p>
-            <p hidden id="email_to_copy">evan.m.berg@gmail.com</p>
+            <input type="hidden" value="evan.m.berg@gmail.com" id="email_to_copy"/>
             <p class="subtitle copy_email" onClick="copyText()">(copy)</p>
           </div>
           <div class="resume_option">
@@ -35,14 +35,16 @@
         </div>
       </div>
     </div>
-    <div class="columns">
+    <div class="columns" id="about_column">
       <div class="column is-three-quarters container" id="about">
-        <p>My name's Evan, and I'm a Full Stack Web Developer, Musician, and all around nerd.  I've been coding full time for over 5 years, beginning my journey at General Assembly's Web Development Intensive.  During my time at GA I studied Ruby, Rails, Git, JavaScript, VueJS, MYSQL, Postgresql, Redis, Mongo, Node.js, HTML, CSS, Sass, RSPEC, Capybara, TTD, Agile Development, along with many other languages and concepts.  In the past 5 years I have worked freelance (projects ranging from a ski resort in Utah to a Water Service company in the DC Metro area), and as a Full Stack Developer for Tripwing (a luxury travel app), and currently Casting Frontier (a digital casting company).  All in all I am a hard worker, a quick learner, a solid communicator, and a total nerd with a thirst for knowledge.</p>
+        <p>
+          My name is Evan Berg. I am a software engineer with over 8 years of professional development experience. I have worked at startups with less than 15 people and giant corporate entities with over 30,000, in industries from travel to entertainment and fintech, and I have grown in each role. I am a professional nerd hailing from Washington DC, currently residing in Brooklyn, NYC and have lived and traveled all over the country. I am also a musician of over 25 years and a passionately creative individual with a strong desire to keep learning. Whether it's technology, music and art, culture and history, I believe there is always more to explore and I will always love getting out there to discover all that I can.
+        </p>
       </div>
     </div>
     <div class="columns">
       <div class="column is-full container" id="resume">
-        <object data="BergE_Resume.pdf" type="application/pdf" width="1200" height="1000"></object>
+        <object data="BergE_Resume.pdf" type="application/pdf" width="100%" height="1000"></object>
       </div>
     </div>
   </body>

@@ -21,12 +21,8 @@ $(document).ready(function(){
     $('.menu_options').fadeIn('fast');
   });
 
-  function copyText() {
-    var copyText = document.getElementById("email_to_copy");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
-    alert("Copied the text: " + copyText.value);
-  }
+  $('.copy_email').on('click', function(){
+    navigator.clipboard.writeText('evan.m.berg@gmail.com');
+  });
 
 });
