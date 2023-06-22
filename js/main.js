@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("#resume").fadeIn("fast");
     $(".menu_options").fadeOut("fast");
     $('.resume_option').fadeIn("fast");
+    $('#about').hide();
   });
 
   $('.close_resume').on('click', function(){
