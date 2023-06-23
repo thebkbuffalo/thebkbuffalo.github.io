@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("#resume").fadeIn("fast");
     $(".menu_options").fadeOut("fast");
     $('.resume_option').fadeIn("fast");
+    $('#menu_columns').css('float', 'left');
     $('#about').hide();
   });
 
@@ -20,6 +21,7 @@ $(document).ready(function(){
     $('#resume').fadeOut('fast');
     $('.resume_option').fadeOut('fast');
     $('.menu_options').fadeIn('fast');
+    $('#menu_columns').css('float', '');
   });
 
   $('.copy_email').on('click', function(){

@@ -14,35 +14,61 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="columns">
+    <div class="columns" id="header_columns">
       <div class="column is-full" id="top_columns">
-        <div class="column">
-          <p class="name">Evan Berg</p>
-          <p>(Software Engineer || Recovering Musician)</p>
+        <p class="name">Evan Berg</p>
+        <p>(Software Engineer || Recovering Musician)</p>
+      </div>
+    </div>
+    <div class="column" id="menu_columns">
+      <div class="column" id="menu">
+        <div class="menu_options">
+          <p class="subtitle show_about">About</p>
+          <p class="subtitle show_resume">Resume</p>
+          <p class="subtitle dl_resume"><a href="BergE_Resume.pdf" download>(download)</a></p>
+          <p class="subtitle open_email"><a href="mailto: evan.m.berg@gmail.com">Email</a></p>
+          <input type="hidden" value="evan.m.berg@gmail.com" id="email_to_copy"/>
+          <p class="subtitle copy_email">(copy)</p>
         </div>
-        <div class="column" id="menu">
-          <div class="menu_options">
-            <p class="subtitle show_about">About</p>
-            <p class="subtitle show_resume">Resume</p>
-            <p class="subtitle dl_resume"><a href="BergE_Resume.pdf" download>(download)</a></p>
-            <p class="subtitle open_email"><a href="mailto: evan.m.berg@gmail.com">Email</a></p>
-            <input type="hidden" value="evan.m.berg@gmail.com" id="email_to_copy"/>
-            <p class="subtitle copy_email">(copy)</p>
-          </div>
-          <div class="resume_option">
-            <p class="close_resume">X</p>
-          </div>
+        <div class="resume_option">
+          <p class="close_resume">X</p>
         </div>
       </div>
     </div>
-    <div class="columns" id="about_column">
+    <div class="columns" id="about_columns">
       <div class="column is-three-quarters container" id="about">
         <p>
           My name is Evan Berg. I am a software engineer with over 8 years of professional development experience. I have worked at startups with less than 15 people and giant corporate entities with over 30,000, in industries from travel to entertainment and fintech, and I have grown in each role. I am a professional nerd hailing from Washington DC, currently residing in Brooklyn, NYC and have lived and traveled all over the country. I am also a musician of over 25 years and a passionately creative individual with a strong desire to keep learning. Whether it's technology, music and art, culture and history, I believe there is always more to explore and I will always love getting out there to discover all that I can.
         </p>
+        <br>
+        <p class="langauges_label">Languages and Tech I've Worked With:</p>
+        <ul class="left_list">
+          <li>Ruby / Ruby on Rails</li>
+          <li>Python / Django</li>
+          <li>Javascript</li>
+          <li>ReactJS</li>
+          <li>VueJS</li>
+          <li>php</li>
+          <li>SQL (MYSQL / PSQL)</li>
+          <li>Mongo</li>
+          <li>Redis</li>
+          <li>Elasticsearch</li>
+        </ul>
+        <ul class="right_list">
+          <li>AWS Services</li>
+          <li>DevOps</li>
+          <li>GIT</li>
+          <li>Linux</li>
+          <li>IBM MQ</li>
+          <li>Rabbit MQ</li>
+          <li>Microservice Architecture</li>
+          <li>Testing (BDD / TDD)</li>
+          <li><b>508 Users with Disabilities Certificate</b> (obtained in 2022)</li>
+        </ul>
+        </ul>
       </div>
     </div>
-    <div class="columns">
+    <div class="columns" id="resume_columns">
       <div class="column is-full container" id="resume">
         <object data="BergE_Resume.pdf" type="application/pdf" width="100%" height="1000"></object>
       </div>

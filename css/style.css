@@ -12,6 +12,21 @@ h1, h2, h3, h4, h5, p, a {
 	padding: 10px 0 0 25px;
 }
 
+#menu_columns, #about_columns {
+	display: inline-flex;
+}
+
+.langauges_label {margin-bottom: 8px;}
+
+.left_list {
+	float: left;
+}
+
+.right_list {
+	display: inline-block;
+	margin-left: 42px;
+}
+
 .name {
 	font-size: 45px;
 }
