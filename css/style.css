@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, p, a {
 	padding: 10px 0 0 25px;
 }
 
+#header_columns {margin-left: auto;}
+
 #menu_columns, #about_columns {
 	display: inline-flex;
 }
@@ -20,7 +22,6 @@ h1, h2, h3, h4, h5, p, a {
 
 .left_list {
 	float: left;
-	padding: 0 10px!important;
 }
 
 .right_list {
@@ -63,5 +64,4 @@ h1, h2, h3, h4, h5, p, a {
 #about p {
 	font-size: 22px;
 	font-weight: 500;
-	padding: 0 10px!important;
 }
