@@ -2,10 +2,27 @@ $(document).ready(function(){
 
   $('.show_about').on('click', function(){
     var is_vis = $("#about p").is(":visible");
+    var freelance_vis = $("#freelance h1").is(":visible");
+    if(freelance_vis){
+      $("#freelance").fadeOut("fast");
+    }
     if(is_vis){
       $("#about").fadeOut("fast");
     }else{
       $("#about").fadeIn("fast");
+    }
+  });
+
+  $('.show_freelance').on('click', function(){
+    var is_vis = $("#freelance h1").is(":visible");
+    var about_vis = $("#about p").is(":visible");
+    if(about_vis){
+      $("#about").fadeOut("fast");
+    }
+    if(is_vis){
+      $("#freelance").fadeOut("fast");
+    }else{
+      $("#freelance").fadeIn("fast");
     }
   });
 

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, p, a {
 
 #header_columns {margin-left: auto;}
 
-#menu_columns, #about_columns {
+#menu_columns, #about_columns, #freelance_columns {
 	display: inline-flex;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, p, a {
 	font-size: 15px!important;
 }
 
-#about, #resume, .resume_option {
+#about, #resume, #freelance, .resume_option {
 	display: none;
 }
 
@@ -64,4 +64,14 @@ h1, h2, h3, h4, h5, p, a {
 #about p {
 	font-size: 22px;
 	font-weight: 500;
+}
+
+#freelance h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+#freelance h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 15px;
 }
